@@ -1,4 +1,4 @@
-3 Service models:
+3 Service models:  
 **1)IaaS - Infrastructure as a service(Infrastructure)**  
   cloud provider manages:
     **physical resoruces**, data centers, cooling, power, networking & security and servers & storage  
