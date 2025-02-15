@@ -5,4 +5,6 @@ In an IaaS Cloud environment, customers can create or provision virtual machines
 These VMs typically come pre-installed the customer’s choice of operating system.  
 The customers can then deploy middleware, install applications, and run workloads on these VMs.  
 They can also and create storage for their workloads and backups.  
-Cloud providers often provide customers the ability to track and monitor the performance and usage of their cloud services and manage disaster recovery.
+Cloud providers often provide customers the ability to track and monitor the performance and usage of their cloud services and manage disaster recovery.  
+
+<img src="Theory/Screenshot%202025-02-15%20145035.png" height = 300>
