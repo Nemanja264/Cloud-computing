@@ -23,6 +23,6 @@ Cloud providers often provide customers the ability to track and monitor the per
     
    **4)Storage:**
           There are **three types of cloud data storage: object, file, and block storage.**  
-          **Object storage** is the most common mode of storage in the cloud, given that it is highly distributed and resilient.
+          **Object storage** is the most common mode of storage in the cloud, given that it is highly distributed and resilient.  
 
-<img src="Images/Screenshot%202025-02-15%20151054.png? height = 300>
+<img src="Images/Screenshot%202025-02-15%20151054.png?" height = 300>
