@@ -47,6 +47,15 @@ Since the infrastructure is managed **within the organization’s own data cente
 
 **3) Community Cloud**  
 
+**Cloud infrastructure is provisioned for exclusive use by a specific community of consumers from organizations that have shared concerns (e.g., mission, security requirements, policy, and compliance considerations).  
+It may be owned, managed, and operated by one or more of the organizations in the community, a third party, or some combination of them, and it may exist on or off premises.**  
+
+Community cloud approach is used by organizations for the following reasons:  
+- The community cloud members work under the same set of security controls.
+- The approach provides the members the same attributes like citizenship and authorization controls while giving limited physical and/or logical access to resources.
+- It also supports data localization and some data sovereignty requirements based on the location of the community cloud’s data centers. 
+- The approach defines a perimeter security model encompassing the community cloud. 
+
 
 **4) Hybrid Cloud**  
 
