@@ -34,9 +34,12 @@ A private cloud is a virtualized environment modeled to bring in the benefits of
 
 **Use cases:**  
 a) for organizations to modernize and unify their in-house and legacy applications. Moving these applications from their dedicated hardware to the cloud also allows them to leverage the power of the compute resources and multiple services available on the cloud.  
+
 b) organizations are integrating data and application services from their existing applications with public cloud services.  
 This allows them to leverage their private cloud's compute capability for the larger jobs while pulling data into an application on a private cloud to leverage public cloud services.
+
 c) gives organizations the ability to build applications anywhere and move them anywhere without having to compromise security and compliance in the process
+
 d) provides businesses with on-demand access to computing resources while ensuring full control over security, compliance, and infrastructure management.
 
 This model is often preferred by companies that handle **sensitive data** or operate in **highly regulated industries such as finance, healthcare, and government.**  
