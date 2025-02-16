@@ -15,7 +15,7 @@ if one physical component fails, the service still runs unaffected on the remain
 <img src="Images/Screenshot%202025-02-16%20162955.png" height = 300>
 
 ***Use cases:***
-
+<img src="Images/Screenshot%202025-02-16%20164420.png" height = 300>
 
 **2) Private Cloud**  
 
