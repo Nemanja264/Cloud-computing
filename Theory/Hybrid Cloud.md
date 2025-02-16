@@ -19,6 +19,7 @@ All data transmitted through these tunnels isn't decrypted until reaching the or
 ***Point of Presence (PoP)*** is a physical location that houses data center compute, storage and networking infrastructure where high-speed connections to the internet are established. **Used for connecting privately to public cloud.**  
 
 ***2. Service Mesh:***  
+
 *Control traffic flows and API calls between services while also gaining visibility into your traffic.*  
 This makes calls more reliable and your network more robust, even in adverse conditions, while enabling you to catch issues before they become problems.
 
