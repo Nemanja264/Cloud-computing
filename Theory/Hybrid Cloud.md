@@ -23,7 +23,13 @@ All data transmitted through these tunnels isn't decrypted until reaching the or
 This makes calls more reliable and your network more robust, even in adverse conditions, while enabling you to catch issues before they become problems.
 
 ***Istio*** is an open source service mesh that helps organizations run distributed, microservices-based apps anywhere.  
-Enabling us to create policies for ingress gateaway. Tells the gateaway to route the other traffic, it will use vpn to move 50% traffic to Trader v2  
+Enabling us to create policies for ingress gateaway. Tells the gateaway to route the other traffic, it will use vpn to move 50% traffic to Trader v2    
 
-100% - is traffic, 50% will go to Trader v1 and 50% to Trader v2  
+100% - is traffic, 50% will go to Trader v1 and 50% to Trader v2   
+
+***Integration:***  
+
+**API Gateway** enables you to provide secure access to your services through a well-defined REST API that is consistent across all of your services, regardless of service implementation  
+*Core part of connecting 3rd party services or public cloud services with things in your private cloud*
+
 
