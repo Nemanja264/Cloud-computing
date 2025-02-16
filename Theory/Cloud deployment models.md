@@ -50,3 +50,26 @@ Since the infrastructure is managed **within the organization’s own data cente
 
 **4) Hybrid Cloud**  
 
+Computing environment that **connects** an organization's **on-premise private Cloud** and **third-party public Cloud**, into a single flexible infrastructure for running the organizations applications and workloads.  
+
+Organizations can choose to run **the sensitive, highly regulated, and mission-critical applications or workloads** with reasonably constant performance and capacity requirements **on private Cloud infrastructure**, while deploying the **less sensitive and more dynamic workloads** on the **public Cloud.**  
+
+***Cloud bursting*** is the practice of dynamically scaling public cloud resources to run workloads when on-premises data center resources are at their peak capacity.  
+
+Hybrid Cloud is **interoperable**, which means that the public and private Cloud services can understand each other's APIs, configuration, data formats, and forms of authentication and authorization.  
+A Hybrid Cloud is also **portable.** Since you're no longer locked in with a specific vendor, you can *move applications and data* not just between on-premise and Cloud systems, but also *between Cloud service providers.*  
+
+**Two types:**  
+***Hybrid mono Cloud*** is a hybrid Cloud with **one Cloud provider**  
+***Hybrid multi-Cloud*** is an open standards-based stack that **can be deployed on any public Cloud infrastructure.**  
+
+*The difference* lies in the flexibility that the **hybrid multi-Cloud offers organizations to move workloads and environments from one vendor to another.**  
+
+***Composite multi-Cloud*** variant of hybrid multi-Cloud, distributes single applications across multiple providers, allowing you to move application components across Cloud services and vendors as needed.  
+
+**Use cases:**  
+*SaaS integration*  
+*Data and AI integration*  
+*Enhancing legacy apps*  
+*VMware migration*  
+*Leveraging public Cloud services*  
