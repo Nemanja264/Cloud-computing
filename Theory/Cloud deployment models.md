@@ -8,14 +8,14 @@ Using web consoles and APIs, users can provision the resources and services they
 User does not have any control over the computing environment and is subject to the performance and security of the cloud provider’s infrastructure.
 **providers: (Amazon Web Services, Microsoft Azure, IBM Cloud, Google Cloud Platform, and Alibaba Cloud)**
 
-*Characteristics:*
+*Characteristics:*  
 On-demand resources
 The sheer number of server and network resources available on the public cloud means that a public cloud is highly available  
-if one physical component fails, the service still runs unaffected on the remaining available components.
-<img src="Images/Screenshot%202025-02-16%20162955.png" height = 300>
+if one physical component fails, the service still runs unaffected on the remaining available components.  
+<img src="Images/Screenshot%202025-02-16%20162955.png" height = 300>  
 
-***Use cases:***
-<img src="Images/Screenshot%202025-02-16%20164420.png" height = 300>
+***Use cases:***  
+<img src="Images/Screenshot%202025-02-16%20164420.png" height = 300>  
 
 **2) Private Cloud**  
 
