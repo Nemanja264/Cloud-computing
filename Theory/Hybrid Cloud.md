@@ -10,7 +10,7 @@
 
 <img src="Images/Screenshot%202025-02-16%20232506.png" height = 350>
 
-***Connect:***  
+***1. Connect:***  
 
 **Cloud VPN tunnel** securely extends your peer network to your Virtual Private Cloud (VPC) network through an IPsec VPN connection.  
 **Used so that private cloud can access public cloud.**  
@@ -18,7 +18,7 @@ All data transmitted through these tunnels isn't decrypted until reaching the or
 
 ***Point of Presence (PoP)*** is a physical location that houses data center compute, storage and networking infrastructure where high-speed connections to the internet are established. **Used for connecting privately to public cloud.**  
 
-***Service Mesh:***  
+***2. Service Mesh:***  
 *Control traffic flows and API calls between services while also gaining visibility into your traffic.*  
 This makes calls more reliable and your network more robust, even in adverse conditions, while enabling you to catch issues before they become problems.
 
@@ -27,7 +27,7 @@ Enabling us to create policies for ingress gateaway. Tells the gateaway to route
 
 100% - is traffic, 50% will go to Trader v1 and 50% to Trader v2   
 
-***Integration:***  
+***3. Integration:***  
 
 **API Gateway** enables you to provide secure access to your services through a well-defined REST API that is consistent across all of your services, regardless of service implementation  
 *Core part of connecting 3rd party services or public cloud services with things in your private cloud*
