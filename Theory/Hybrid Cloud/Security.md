@@ -50,4 +50,9 @@ It acts as the first line of defense against unauthorized access, cyberattacks, 
   -  **OpenVPN** ensures secure access to Kubernetes control plane.
 
   -Mutual TLS
-    - Mutual Authentication, **mTLS verifies both parties (client & server).** When a *microservice inside Kubernetes* communicates with another service, both services validate each other’s identity before exchanging data.
+    - Mutual Authentication, **mTLS verifies both parties (client & server).** 
+    - When a *microservice inside Kubernetes* communicates with another service, both services validate each other’s identity before exchanging data.
+    - **End-to-End Encryption,** even if an attacker gains access to the network, they cannot read the data because it's encrypted.
+    - **Istio (Service Mesh)** automatically manages mTLS for internal Kubernetes traffic.
+    - **Calico (Network Policy Engine)** enforces rules that prevent unauthorized microservices from communicating.
+    - Example: **Prevents Man-in-the-Middle (MITM)** attacks inside Kubernetes (data traffic encrypted), Ensures only trusted microservices can talk to each other,       Encrypts sensitive data within the cloud environment
