@@ -71,7 +71,7 @@ It acts as the first line of defense against unauthorized access, cyberattacks, 
          It ensures that users and services only have the **necessary permissions** to perform their tasks.  
          
            - **Key Components:**  
-             a. **Role & ClusterRole** – Define what actions are allowed (read, write, delete) on specific resources.  
-             b. **RoleBinding & ClusterRoleBinding** – Assign roles to users, groups, or service accounts.    
+             1. **Role & ClusterRole** – Define what actions are allowed (read, write, delete) on specific resources.  
+             2. **RoleBinding & ClusterRoleBinding** – Assign roles to users, groups, or service accounts.    
        
        3. **Backup & Restore**  
