@@ -74,4 +74,4 @@ It acts as the first line of defense against unauthorized access, cyberattacks, 
              1. **Role & ClusterRole** – Define what actions are allowed (read, write, delete) on specific resources.  
              2. **RoleBinding & ClusterRoleBinding** – Assign roles to users, groups, or service accounts.    
        
-       3. **Backup & Restore**  
+        3. **Backup & Restore**  
