@@ -2,9 +2,9 @@
 
 **1. identify**
 
-**2. refactor** - Application Refactoring is the rewriting of one or more components of an application, typically to take advantage of public cloud services.   
+**2. refactor**  
 - ***Glue code*** connects two or more software systems in different environments or otherwise bridges incompatible processes.
-- Refactoring (Cloud-Native Migration): Redesign applications to be fully optimized for cloud services like serverless computing, Kubernetes, or microservices.
+- ***Refactoring (Cloud-Native Migration):*** Redesign applications to be fully optimized for cloud services like serverless computing, Kubernetes, or microservices. Typically to take advantage of public cloud services.   
 
 **3. deploy**
 
