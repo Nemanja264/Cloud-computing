@@ -49,7 +49,7 @@ It acts as the first line of defense against unauthorized access, cyberattacks, 
   -  Calico & Istio help enforce network security policies between Kubernetes microservices.
   -  **OpenVPN** ensures secure access to Kubernetes control plane.
 
-  - ***Mutual TLS***
+- **Mutual TLS***
     - Mutual Authentication, **mTLS verifies both parties (client & server).**  
     - When a *microservice inside Kubernetes* communicates with another service, both services validate each other’s identity before exchanging data.  
     - **End-to-End Encryption,** even if an attacker gains access to the network, they cannot read the data because it's encrypted.  
@@ -57,12 +57,12 @@ It acts as the first line of defense against unauthorized access, cyberattacks, 
     - **Calico (Network Policy Engine)** enforces rules that prevent unauthorized microservices from communicating.  
     - **Examples:** **Prevents Man-in-the-Middle (MITM)** attacks inside Kubernetes (data traffic encrypted), Ensures only trusted microservices can talk to each other, Encrypts sensitive data within the cloud environment
 
-    - ***OpenVPN***  
+  - ***OpenVPN***  
         - **Secure Connection for Administrators,** Cloud administrators use OpenVPN to connect securely to the K8s Master, only authorized users can configure or             control the cluster.
         - **Protecting Kubernetes API & etcd Database,**  
         - **Preventing External Attacks,** OpenVPN *encrypts admin access* and *hides the Kubernetes API endpoint* from unauthorized users.
      
-    - ***etcd database***  
+  - ***etcd database***  
      - Distributed key-value store that serves as **the brain of Kubernetes** by storing all cluster data. **(Stores Cluster Configuration & State, networking             details)**
      - etcd secured in Cloud:
        - *Data Encryption(mTLS)*
