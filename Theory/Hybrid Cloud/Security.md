@@ -18,7 +18,7 @@ It acts as the first line of defense against unauthorized access, cyberattacks, 
      
   3. **ISTIO** used for layer 7 network policies and routing for security
   - **These two can cover network security policies from layer 3 to layer 7**
-    
+
   4. Request hits services, this is **INGRESS application flow**
     - for external Request services can make, **EGRESS calls**, the same can be configured through ISTIO and Calico
     - ***Egress*** refers to the flow of data moving out of a private network into the public internet or another external network.
