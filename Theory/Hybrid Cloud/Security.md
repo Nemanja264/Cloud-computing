@@ -65,11 +65,13 @@ It acts as the first line of defense against unauthorized access, cyberattacks, 
      
 - ***etcd database***  
      - Distributed key-value store that serves as **the brain of Kubernetes** by storing all cluster data. **(Stores Cluster Configuration & State, networking             details)**
-     - etcd secured in Cloud:
-       - *Data Encryption(mTLS)*
-       - *Role-Based Access Control (RBAC)*, **security mechanism** in Kubernetes that controls **who can do what within a cluster.**
+     - etcd security in Cloud:
+       1. **Data Encryption(mTLS)**
+       2. **Role-Based Access Control (RBAC)**, **security mechanism** in Kubernetes that controls **who can do what within a cluster.**
          It ensures that users and services only have the **necessary permissions** to perform their tasks.
          
            - **Key Components:**
-             1. **Role & ClusterRole** – Define what actions are allowed (read, write, delete) on specific resources.
-             2. **RoleBinding & ClusterRoleBinding** – Assign roles to users, groups, or service accounts.
+             a. **Role & ClusterRole** – Define what actions are allowed (read, write, delete) on specific resources.
+             b. **RoleBinding & ClusterRoleBinding** – Assign roles to users, groups, or service accounts.  
+       
+       3. **Backup & Restore**
