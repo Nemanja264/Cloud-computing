@@ -1,5 +1,7 @@
 ***Deconstruct***  
 
+- next for steps are used to break out individual portions out of monolithic architecture and move it to a public cloud
+  
 **1. identify**
 
 **2. refactor**  
@@ -30,4 +32,10 @@ GET - gets us stock prices
 <img src="../Images/Screenshot%202025-02-17%20161551.png" height = 350> 
 
 
+Serverless technology
+- f - function as a service, hits IEX public APIs (taking advantage of IEX APIs using serverless)
+- then repeat all the 4 steps from deconstruct, after that we **test new serverless workflow**
+- **after verifying workflow works well** then => **we can cut out monolithic architecture that we pulled in public cloud**
+  
+<img src="../Images/Screenshot%202025-02-17%20163656.png" height = 350>
 
