@@ -18,6 +18,8 @@ It acts as the first line of defense against unauthorized access, cyberattacks, 
   - **These two can cover network security policies from layer 3 to layer 7**
   4. Request hits services, this is **INGRESS application flow**
     - for external Request services can make, **EGRESS calls**, the same can be configured through ISTIO and Calico
+    - ***Egress*** refers to the flow of data moving out of a private network into the public internet or another external network.
+    - ***Ingress*** refers to data entering a system or network.
 
     
 <img src="../Images/Screenshot%202025-02-17%20174501.png" height = 350>
