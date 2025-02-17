@@ -13,9 +13,12 @@ It acts as the first line of defense against unauthorized access, cyberattacks, 
 - In K8s worker services communicate to one another
 - When end-user accesses the app:
   1. They hit the available end point, wherethey enter the public cloud (in that layer there is **denial of service protection**)
+     
   2. Next, Request is being forward to K8s Worker Node, security policy in there: **Calico/K8s** handles layer 3 security level
+     
   3. **ISTIO** used for layer 7 network policies and routing for security
   - **These two can cover network security policies from layer 3 to layer 7**
+    
   4. Request hits services, this is **INGRESS application flow**
     - for external Request services can make, **EGRESS calls**, the same can be configured through ISTIO and Calico
     - ***Egress*** refers to the flow of data moving out of a private network into the public internet or another external network.
