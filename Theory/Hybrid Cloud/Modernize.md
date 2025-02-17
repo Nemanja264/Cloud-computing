@@ -22,3 +22,5 @@ Eventually you catch all the errors and **make sure public cloud is error free**
 This is also sometimes referred to as **rehosting.**
 - Used when we dont have time to refactor, some older applications may not be designed for the cloud and rewriting them would be expensive and time-consuming.
 - *Quick Cloud Migration Requirements,* when an organization needs to move to the cloud rapidly due to data center closure, cost-cutting, or disaster recovery needs
+
+
