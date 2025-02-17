@@ -13,3 +13,10 @@ Eventually you catch all the errors and **make sure public cloud is error free**
 
   
 <img src="../Images/Screenshot%202025-02-17%20155109.png" height = 350>
+
+**4. repeat**  
+
+***Lift and Shift***
+
+**- Lift and shift—moving** the process of migrating an exact copy of an application or workload, together with its data store and operating system (OS), from IT one environment to another—usually from on-premises to public or private cloud.
+This is also sometimes referred to as rehosting.
