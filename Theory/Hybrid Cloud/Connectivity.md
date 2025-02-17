@@ -8,7 +8,7 @@
 **MQ** - notify users when there is change in loyalty or portfolio  
 **f** - functions from public cloud that uses serverless capabilities that will send messages to users using # integration 
 
-<img src="./Images/Screenshot%202025-02-16%20232506.png" height = 350>
+<img src="Theory/Images/Screenshot%202025-02-16%20232506.png" height = 350>
 
 ***1. Connect:***  
 
