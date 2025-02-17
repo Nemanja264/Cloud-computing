@@ -56,14 +56,14 @@ It acts as the first line of defense against unauthorized access, cyberattacks, 
     - **End-to-End Encryption,** even if an attacker gains access to the network, they cannot read the data because it's encrypted.  
     - **Istio (Service Mesh)** automatically manages mTLS for internal Kubernetes traffic.  
     - **Calico (Network Policy Engine)** enforces rules that prevent unauthorized microservices from communicating.  
-    - **Examples:** **Prevents Man-in-the-Middle (MITM)** attacks inside Kubernetes (data traffic encrypted), Ensures only trusted microservices can talk to each other, Encrypts sensitive data within the cloud environment
+    - **Examples:** **Prevents Man-in-the-Middle (MITM)** attacks inside Kubernetes (data traffic encrypted), Ensures only trusted microservices can talk to each other, Encrypts sensitive data within the cloud environment  
 
-  - ***OpenVPN***  
+- ***OpenVPN***  
         - **Secure Connection for Administrators,** Cloud administrators use OpenVPN to connect securely to the K8s Master, only authorized users can configure or             control the cluster.
         - **Protecting Kubernetes API & etcd Database,**  
-        - **Preventing External Attacks,** OpenVPN *encrypts admin access* and *hides the Kubernetes API endpoint* from unauthorized users.
+        - **Preventing External Attacks,** OpenVPN *encrypts admin access* and *hides the Kubernetes API endpoint* from unauthorized users.  
      
-  - ***etcd database***  
+- ***etcd database***  
      - Distributed key-value store that serves as **the brain of Kubernetes** by storing all cluster data. **(Stores Cluster Configuration & State, networking             details)**
      - etcd secured in Cloud:
        - *Data Encryption(mTLS)*
