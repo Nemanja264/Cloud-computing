@@ -4,7 +4,7 @@
 
 **2. refactor** - Application Refactoring is the rewriting of one or more components of an application, typically to take advantage of public cloud services.   
 - ***Glue code*** connects two or more software systems in different environments or otherwise bridges incompatible processes.
-  It typically runs as a scheduled job on a server or, in today's cloud-based systems, as a serverless function or Docker container.
+- Refactoring (Cloud-Native Migration): Redesign applications to be fully optimized for cloud services like serverless computing, Kubernetes, or microservices.
 
 **3. deploy**
 
@@ -19,4 +19,6 @@ Eventually you catch all the errors and **make sure public cloud is error free**
 ***Lift and Shift***
 
 - **Lift and shift—moving** the process of migrating an exact copy of an application or workload, together with its data store and operating system (OS), from IT one environment to another—usually from on-premises to public or private cloud.
-This is also sometimes referred to as rehosting.
+This is also sometimes referred to as **rehosting.**
+- Used when we dont have time to refactor, some older applications may not be designed for the cloud and rewriting them would be expensive and time-consuming.
+- *Quick Cloud Migration Requirements,* when an organization needs to move to the cloud rapidly due to data center closure, cost-cutting, or disaster recovery needs
