@@ -28,3 +28,6 @@ GET - gets us stock prices
 - better way call GET directly from UI of public cloud
   
 <img src="../Images/Screenshot%202025-02-17%20161551.png" height = 350> 
+
+
+
