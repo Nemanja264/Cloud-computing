@@ -27,7 +27,8 @@ It acts as the first line of defense against unauthorized access, cyberattacks, 
       - ***Ingress*** refers to data entering a system or network.
 
     
-<img src="../Images/Screenshot%202025-02-17%20174501.png" height = 350>
+<img src="../Images/Screenshot%202025-02-17%20174501.png" height = 350>  
+
 
 
 ***East-West Network Traffic***  
@@ -49,7 +50,7 @@ It acts as the first line of defense against unauthorized access, cyberattacks, 
   -  Calico & Istio help enforce network security policies between Kubernetes microservices.
   -  **OpenVPN** ensures secure access to Kubernetes control plane.
 
-- **Mutual TLS***
+- ***Mutual TLS***
     - Mutual Authentication, **mTLS verifies both parties (client & server).**  
     - When a *microservice inside Kubernetes* communicates with another service, both services validate each other’s identity before exchanging data.  
     - **End-to-End Encryption,** even if an attacker gains access to the network, they cannot read the data because it's encrypted.  
