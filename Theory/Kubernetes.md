@@ -8,7 +8,7 @@ It includes containers, virtual machines, functions, or entire applications that
 ***KUBERNETE CLUSTER -> NODES -> PODS -> CONTAINERS***  
 
 ***Pods***  
--** Smallest deployable unit** in Kubernetes.  
+- **Smallest deployable unit** in Kubernetes.  
 - It represents a single instance of a running process in the cluster and can **contain one or more containers.**  
 - Pods are **temporary**, when a Pod fails, Kubernetes may create a new one (with a different IP).  
 - **Use Cases:**  
