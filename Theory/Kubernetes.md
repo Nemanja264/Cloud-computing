@@ -19,7 +19,8 @@ It includes containers, virtual machines, functions, or entire applications that
 ***Nodes***
 - **A Node** is a physical or virtual machine that runs **Pods** in a Kubernetes cluster.
 - **Master node** manages the cluster and schedules workloads. Runs key components like **API Server, Controller Manager, Scheduler, etcd.**
-- **Worker Nodes** run actual applications inside Pods. Communicate with the Master Node.  
+- **Worker Nodes** run actual applications inside Pods.
+    - Communicate with the Master Node.  
     - Have components like **Kubelet, Kube Proxy, Container Runtime (Docker/Containerd).**  
     - *Kubelet* ensures containers are running as defined in Pods.
     - *Kube Proxy* – Manages networking and load balancing.
