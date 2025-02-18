@@ -31,7 +31,7 @@ It includes containers, virtual machines, functions, or entire applications that
     - If a **Node fails, Kubernetes reschedules** workloads to other Nodes.  
 
 ***Container***  
-- includes the **application code,** libraries, and dependencies
+- Lightweight, portable, and isolated **execution environment** that includes the **application code,** libraries, and dependencies  
 - Containers inside a Pod communicate using **localhost,** while **Pods talk via Kubernetes networking.**  
 
 **HOW THEY WORK TOGETHER**  
