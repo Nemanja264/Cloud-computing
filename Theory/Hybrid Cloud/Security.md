@@ -74,4 +74,18 @@ It acts as the first line of defense against unauthorized access, cyberattacks, 
              1. **Role & ClusterRole** – Define what actions are allowed (read, write, delete) on specific resources.  
              2. **RoleBinding & ClusterRoleBinding** – Assign roles to users, groups, or service accounts.    
        
-        3. **Backup & Restore**  
+        3. **Backup & Restore**
+
+           
+- ***Control Plane***
+  
+  **The Kubernetes Control Plane** is the central component that manages and orchestrates the cluster.  
+  
+  *Key Components of the Control Plane:*  
+    - **API Server (kube-apiserver)** – The front-end for Kubernetes that processes API requests and communicates with all other components.
+    - **Controller Manager (kube-controller-manager)** – Runs controllers that handle node failures, replication, and endpoint updates.
+    - **Scheduler (kube-scheduler)** – Assigns workloads (Pods) to nodes based on resource availability.
+    - **etcd** – A distributed key-value database that stores cluster state and configuration.
+    - **Cloud Controller Manager (optional)** – Handles cloud-specific integrations (e.g., load balancers, storage provisioning).
+
+  
