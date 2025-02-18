@@ -17,7 +17,8 @@ It includes containers, virtual machines, functions, or entire applications that
   - **Batch jobs** — for short-lived processes like data processing.  
 
 ***Nodes***
-- **A Node** is a physical or virtual machine that runs **Pods** in a Kubernetes cluster.***(serves as a worker in a Kubernetes cluster)***  
+- **A Node** is a physical or virtual machine that runs **Pods** in a Kubernetes cluster. ***(serves as a worker in a Kubernetes cluster)***
+- provides computing resources **(CPU, memory, storage)** and c**ommunicates with the Kubernetes control plane.**  
 - **Master node** manages the cluster and schedules workloads. Runs key components like **API Server, Controller Manager, Scheduler, etcd.**
 - **Worker Nodes** run actual applications inside Pods.
     - Communicate with the Master Node.  
@@ -28,6 +29,16 @@ It includes containers, virtual machines, functions, or entire applications that
 - Functioning:  
     - The **control plane schedules Pods** on available worker nodes. Kubelet ensures Pods are running and healthy.    
     - If a **Node fails, Kubernetes reschedules** workloads to other Nodes.  
+
+***Container***  
+- includes the **application code,** libraries, and dependencies
+- Containers inside a Pod communicate using **localhost,** while **Pods talk via Kubernetes networking.**  
+
+**HOW THEY WORK TOGETHER**  
+  - **A Node** provides the hardware (compute, network, storage).  
+  - **Pods** run on Nodes, grouping one or more Containers.  
+  - **Containers** execute the actual application logic inside Pods.  
+  - **Kubernetes schedules and manages Pods** across multiple Nodes for scaling, reliability, and automation.  
 
 
 **StatefulSets**
