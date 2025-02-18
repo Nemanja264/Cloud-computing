@@ -38,7 +38,9 @@ It includes containers, virtual machines, functions, or entire applications that
   - **A Node** provides the hardware (compute, network, storage).  
   - **Pods** run on Nodes, grouping one or more Containers.  
   - **Containers** execute the actual application logic inside Pods.  
-  - **Kubernetes schedules and manages Pods** across multiple Nodes for scaling, reliability, and automation.  
+  - **Kubernetes schedules and manages Pods** across multiple Nodes for scaling, reliability, and automation.
+
+<img src="../Images/Kubernetes-Architecture%20(1).png" height = 350>
 
 
 **StatefulSets**
