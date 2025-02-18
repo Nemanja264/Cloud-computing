@@ -40,7 +40,7 @@ It includes containers, virtual machines, functions, or entire applications that
   - **Containers** execute the actual application logic inside Pods.  
   - **Kubernetes schedules and manages Pods** across multiple Nodes for scaling, reliability, and automation.
 
-<img src="../Images/Kubernetes-Architecture%20(1).png" height = 350>
+<img src="./Images/Kubernetes-Architecture%20(1).png" height = 350>
 
 
 **StatefulSets**
