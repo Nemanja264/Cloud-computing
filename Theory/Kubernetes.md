@@ -17,7 +17,7 @@ It includes containers, virtual machines, functions, or entire applications that
   - **Batch jobs** — for short-lived processes like data processing.  
 
 ***Nodes***
-- **A Node** is a physical or virtual machine that runs **Pods** in a Kubernetes cluster.
+- **A Node** is a physical or virtual machine that runs **Pods** in a Kubernetes cluster.***(serves as a worker in a Kubernetes cluster)***  
 - **Master node** manages the cluster and schedules workloads. Runs key components like **API Server, Controller Manager, Scheduler, etcd.**
 - **Worker Nodes** run actual applications inside Pods.
     - Communicate with the Master Node.  
