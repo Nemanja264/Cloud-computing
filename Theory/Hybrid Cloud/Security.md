@@ -59,8 +59,8 @@ It acts as the first line of defense against unauthorized access, cyberattacks, 
     - **Examples:** **Prevents Man-in-the-Middle (MITM)** attacks inside Kubernetes (data traffic encrypted), Ensures only trusted microservices can talk to each other, Encrypts sensitive data within the cloud environment  
 
 - ***OpenVPN***  
-        - **Secure Connection for Administrators,** Cloud administrators use OpenVPN to connect securely to the K8s Master, only authorized users can configure or             control the cluster.
-        - **Protecting Kubernetes API & etcd Database,**  
+        - **Secure Connection for Administrators,** Cloud administrators use OpenVPN to connect securely to the K8s Master, only authorized users can configure or             control the cluster.  
+        - **Protecting Kubernetes API & etcd Database**  
         - **Preventing External Attacks,** OpenVPN *encrypts admin access* and *hides the Kubernetes API endpoint* from unauthorized users.  
      
 - ***etcd database***  
