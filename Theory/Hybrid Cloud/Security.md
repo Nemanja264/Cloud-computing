@@ -88,4 +88,7 @@ It acts as the first line of defense against unauthorized access, cyberattacks, 
     - **etcd** – A distributed key-value database that stores cluster state and configuration.
     - **Cloud Controller Manager (optional)** – Handles cloud-specific integrations (e.g., load balancers, storage provisioning).
 
+- ***DevSecOps***
+   - ***The VA Registry*** (probably a container registry) stores application images.
+    Ensuring that only trusted, validated, and secure images are used in Kubernetes deployments.
   
