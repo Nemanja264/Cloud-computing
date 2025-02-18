@@ -43,6 +43,15 @@ It includes containers, virtual machines, functions, or entire applications that
 
 <img src="./Images/Kubernetes-Architecture%20(1).png" height = 400>  
 
+<img src="Images/Screenshot%202025-02-18%20183231.png" height = 350>
+
+<img src="Images/Screenshot%202025-02-18%20183530.png" height = 350>
+
+
+<img src="Images/Screenshot%202025-02-18%20183733.png" height = 350>
+
+
+<img src="Images/Screenshot%202025-02-18%20183833.png" height = 350>
 
 
 **StatefulSets**
