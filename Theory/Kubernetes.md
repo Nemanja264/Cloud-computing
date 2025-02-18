@@ -5,7 +5,7 @@ It includes containers, virtual machines, functions, or entire applications that
 **In Cloud:** Virtual machines (VMs), serverless functions (AWS Lambda, Azure Functions).  
 **In DevOps:** CI/CD pipelines, batch processing jobs.  
 
-***KUBERNETE CLUSTER -> NODES -> PODS -> CONTAINERS***  
+***A Kubernetes Deployment creates Pods → Pods run Containers → Kubernetes allocates them to Nodes based on resource availability***  
 
 ***Pods***  
 - **Smallest deployable unit** in Kubernetes.  
