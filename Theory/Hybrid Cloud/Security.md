@@ -89,6 +89,20 @@ It acts as the first line of defense against unauthorized access, cyberattacks, 
     - **Cloud Controller Manager (optional)** – Handles cloud-specific integrations (e.g., load balancers, storage provisioning).
 
 - ***DevSecOps***
+   - **DevSecOps integrates security into DevOps processes,** ensuring that security is a shared responsibility across the entire software development lifecycle
+     (SDLC). It emphasizes **automation, continuous monitoring, and proactive security** from development to deployment.**(before they reach production)**
+     
+     1. Uses AI/ML for real-time threat detection and automated responses.  
+     2. Implements multi-factor authentication (MFA) and least privilege access to secure cloud resources.  
+     3. Scans container images for vulnerabilities before deployment.  
+     4. Implements security checks at every stage of **the Continuous Integration/Continuous Deployment (CI/CD) process.**  
+     5. Enforces security policies automatically to meet regulatory standards (e.g., ISO, SOC2, HIPAA).  
+     6. **(IaC Security)** Ensures secure configuration of cloud and containerized environments using tools like **Terraform and Ansible.**  
+     7. Uses tools like **SAST (Static Application Security Testing)** and **DAST (Dynamic Application Security Testing)** to identify security flaws in code.
+     8. Security is integrated early in the development process, reducing vulnerabilities.  
+ 
    - ***The VA Registry*** (probably a container registry) stores application images.
-    Ensuring that only trusted, validated, and secure images are used in Kubernetes deployments.
-  
+    - Ensuring that only trusted, validated, and secure images are used in Kubernetes deployments.
+    - After its verified good you can push it in K8s worker
+      - **An Admission Controller,** we can use it to secure that image in K8s.**(used in live deployment (production))**  
+        - It acts as a **gatekeeper** that can **validate, mutate, or deny requests** based on predefined rules.
