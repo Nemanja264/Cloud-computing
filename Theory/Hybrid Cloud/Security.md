@@ -102,7 +102,6 @@ It acts as the first line of defense against unauthorized access, cyberattacks, 
      8. Security is integrated early in the development process, reducing vulnerabilities.  
  
    - ***The VA Registry*** (probably a container registry) stores application images.
-    - Ensuring that only trusted, validated, and secure images are used in Kubernetes deployments.
-    - After its verified good you can push it in K8s worker
+    - Ensuring that only trusted, validated, and secure images are used in Kubernetes deployments. After its verified good you can push it in K8s worker  
       - **An Admission Controller,** we can use it to secure that image in K8s.**(used in live deployment (production))**  
         - It acts as a **gatekeeper** that can **validate, mutate, or deny requests** based on predefined rules.
