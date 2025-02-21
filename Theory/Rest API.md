@@ -25,8 +25,8 @@
 
 6. **Client Acts on the Response**
    - The client processes the response and takes further action:
-    - *Displaying data in an app*
-    - *Creating new API calls*
-    - *Handling errors*
+     - *Displaying data in an app*
+     - *Creating new API calls*
+     - *Handling errors*
    - **For example, if the API returns the instance ID, the client can use it for monitoring or termination.**
 
