@@ -2,9 +2,9 @@
 **1. Control Nodes**  
 **2. Compute Nodes**  
     - Has 3 components:  
-      - **Kubelet** - how the compute node communicates with the control plane(kube-api server), also **managing resources and guaranteeing cluster health**  
-      - **CRI(Container Runtime Initiative)** - acts as the main connection between **the kubelet** and **the Container Runtime**(run containers on a host operating system)   
-      - **Kube-Proxy**  
+        - **Kubelet** - how the compute node communicates with the control plane(kube-api server), also **managing resources and guaranteeing cluster health**  
+        - **CRI(Container Runtime Initiative)** - acts as the main connection between **the kubelet** and **the Container Runtime**(run containers on a host operating system)   
+        - **Kube-Proxy**  
 
 ***The scheduler*** watches for newly created pods and finds the best node for their assignment(based on resources), it also checks(asks) if any workloads need to be created    
 ***Desired state*** - It is the state that you want your cluster to be in  
