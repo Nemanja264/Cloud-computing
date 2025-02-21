@@ -18,4 +18,5 @@ Steps in Creation(this is happening on Control Node):
 1. Call **Kubectl(Kube Control command),** it calls **kube-api server**(main managment component of kubernetes cluster)  
 2. kube-api server does call **authentification**(if its okay make a pod)  
 3. kube-api server **writes that Pod create request to etcd**(etcd returns when it makes a successful write  
-4. kube-api server returns to me that its created  
+4. kube-api server returns to me that its created
+5. **The Controller Manager** monitors the current state of your cluster through the API Server and makes appropriate changes to keep the application running by ensuring sufficient Pods are in a healthy state.**(to reconcile current and desired state)**  
