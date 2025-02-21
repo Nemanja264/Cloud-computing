@@ -2,7 +2,7 @@
 **1. Control Nodes**  
 **2. Compute Nodes**  
     - Has 3 components:  
-        -**Kubelet** - how the compute node communicates with the control plane(kube-api server), also **managing resources and guaranteeing cluster health**  
+        - **Kubelet** - how the compute node communicates with the control plane(kube-api server), also **managing resources and guaranteeing cluster health**  
         - **CRI(Container Runtime Initiative)** - acts as the main connection between **the kubelet** and **the Container Runtime**(run containers on a host operating system)   
         - **Kube-Proxy**  
 
