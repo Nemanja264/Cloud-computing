@@ -19,7 +19,7 @@
 3. when **followers changes local data store** it return that to the leader
 4. when the majority if followers update their current data, **then leader updates its own data store and return successful write to the client**
 
-<img src="Images/
+<img src="Images/Screenshot%202025-02-21%20161050.png" height = 350>
 
 - **Watch function**:
   - etcd stores Kubernetes **configuration data** and **state data**
