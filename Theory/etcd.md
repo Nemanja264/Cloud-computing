@@ -11,11 +11,15 @@
 
 - **etcd cluster** always **has a leader** and the **other nodes are followers**(key value data store, here key=7)
 - **client** can make write or read request to any node not just leader
-  - (read)follower node forward that request to leader node, that will respond with cluster current value of key(follower sends that respond to client)  
+  - (read)follower node forward that request to leader node, that will respond with cluster current value of key(follower sends that respond to client)
+
+- **Replication:**
 1. **client send request** for changing key to 17
 2. **leader forwards request to followers**
 3. when **followers changes local data store** it return that to the leader
 4. when the majority if followers update their current data, **then leader updates its own data store and return successful write to the client**
+
+<img src="Images/
 
 - **Watch function**:
   - etcd stores Kubernetes **configuration data** and **state data**
