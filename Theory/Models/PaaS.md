@@ -4,9 +4,9 @@
 ***The PaaS provider hosts everything: servers, networks, storage, operating system, application runtimes, APIs, middleware, databases and other tools at their data center.***  
 ***The provider also takes responsibility for the installation, configuration, and operation of the application infrastructure, leaving the user responsible for only the application code and its maintenance.***
 
-<img src="Images/Screenshot%202025-02-15%20151150.png?" height = 300>
+<img src="../Images/Screenshot%202025-02-15%20151150.png?" height = 300>
 
-<img src="Images/Screenshot%202025-02-15%20151854.png?" height = 300>
+<img src="../Images/Screenshot%202025-02-15%20151854.png?" height = 300>
 
 **Use cases:**  
 ***API development and management*** - Organizations are using PaaS to develop, run, manage and secure APIs and microservices, which are loosely coupled, independently deployable components and services.  
