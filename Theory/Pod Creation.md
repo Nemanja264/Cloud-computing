@@ -8,10 +8,10 @@
 
 ***The scheduler*** watches for newly created pods and finds the best node for their assignment(based on resources), it also checks(asks) if any workloads need to be created    
 ***Desired state*** - It is the state that you want your cluster to be in  
-      - **The Kubernetes API server stores the desired state in etcd**  
-      - Kubernetes continuously works to ensure the actual state of the system matches the desired state  
-      - **The Kubernetes Controller Manager** constantly monitors the cluster’s actual state and compares it with the desired state. 
-      - If there is any difference (drift), Kubernetes takes action to reconcile the difference **(control loop).**  
+    - **The Kubernetes API server stores the desired state in etcd**  
+    - Kubernetes continuously works to ensure the actual state of the system matches the desired state  
+    - **The Kubernetes Controller Manager** constantly monitors the cluster’s actual state and compares it with the desired state. 
+    - If there is any difference (drift), Kubernetes takes action to reconcile the difference **(control loop).**  
 
 Steps in Creation(this is happening on Control Node):  
 1. Call **Kubectl(Kube Control command),** it calls **kube-api server**(main managment component of kubernetes cluster)  
