@@ -8,7 +8,7 @@
 1. **Client Sends a Request**
   - **The client (user, app, or service) sends an HTTP request** to the cloud service’s REST API endpoint.
   - Each request targets a specific **resource (e.g., virtual machine, storage object)** identified by a **URI (Uniform Resource Identifier).**
-  - The request includes: **Method**(GET, POST, PUT, or DELETE), **Headers**(Metadata like Content-Type and Authorization), **Body**(Optional, Data for POST or PUT)
+  - **The request includes:** **Method**(GET, POST, PUT, or DELETE), **Headers**(Metadata like Content-Type and Authorization), **Body**(Optional, Data for POST or PUT)
 
 2. **Authentication and Authorization**
     - The cloud provider verifies the request using one of these methods: **API Key**(Unique identifier for the user), **OAuth Token**, **IAM Roles**(Assigned permissions)
