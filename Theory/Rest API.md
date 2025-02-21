@@ -4,6 +4,7 @@
   - **format: https://{base-url}/{resource}/{resource-id}/{action}**  
 
 
+
 1. **Client Sends a Request**
   - **The client (user, app, or service) sends an HTTP request** to the cloud service’s REST API endpoint.
   - Each request targets a specific **resource (e.g., virtual machine, storage object)** identified by a **URI (Uniform Resource Identifier).**
