@@ -1,0 +1,1 @@
+- ***REST API (Representational State Transfer Application Programming Interface)*** allows communication between cloud services and applications over the internet using standard HTTP methods.
