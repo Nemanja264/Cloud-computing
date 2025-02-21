@@ -7,7 +7,7 @@ The customers can then deploy middleware, install applications, and run workload
 They can also and create storage for their workloads and backups.  
 Cloud providers often provide customers the ability to track and monitor the performance and usage of their cloud services and manage disaster recovery.  
 
-<img src="Images/Screenshot%202025-02-15%20145035.png" height = 300>
+<img src="../Images/Screenshot%202025-02-15%20145035.png" height = 300>
 
 **Key components of cloud infrastructure:**  
    **1)Physical data centers:**  
@@ -25,4 +25,4 @@ Cloud providers often provide customers the ability to track and monitor the per
           There are **three types of cloud data storage: object, file, and block storage.**  
           **Object storage** is the most common mode of storage in the cloud, given that it is highly distributed and resilient.  
 
-<img src="Images/Screenshot%202025-02-15%20151054.png?" height = 300>
+<img src="../Images/Screenshot%202025-02-15%20151054.png?" height = 300>
