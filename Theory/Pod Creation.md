@@ -6,7 +6,8 @@
   - **CRI(Container Runtime Initiative)** - acts as the main connection between **the kubelet** and **the Container Runtime**(run containers on a host operating system)   
   - **Kube-Proxy**  
 
-***The scheduler*** watches for newly created pods and finds the best node for their assignment(based on resources), it also checks(asks) if any workloads need to be created  
+***The scheduler*** watches for newly created pods and finds the best node for their assignment(based on resources on), it also checks(asks) if any workloads need to be created  
+- **on which Compute Node our newly created Pod should go to**  
 
 ***Desired state*** - It is the state that you want your cluster to be in  
 - **The Kubernetes API server stores the desired state in etcd**  
