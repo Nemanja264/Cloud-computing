@@ -1,7 +1,7 @@
 - ***REST API (Representational State Transfer Application Programming Interface)*** allows communication between cloud services and applications over the internet using standard HTTP methods.
+
 - ***Endpoint*** is a specific **URL** where an API receives requests to access a particular resource or perform an action. Each endpoint represents an interaction point between the client and the server in cloud computing.
   - **format: https://{base-url}/{resource}/{resource-id}/{action}**
-
 
 
 1. **Client Sends a Request**
