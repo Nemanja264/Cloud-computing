@@ -18,15 +18,15 @@
     - They leverage distributed computing to achieve high processing power.
 
 ***3. Storage***  
-    **1. Object Storage**  
-    - Used to store unstructured data like images, videos, and backups.  
-    - Accessible via REST APIs.  
-    **2. Block Storage**  
-    - Provides storage for virtual machines, like an attached hard drive.  
-    - Suitable for databases and operating systems.  
-    **3. File Storage**  
-    - Provides shared storage for multiple VMs, like a network file system.  
-    - Ideal for enterprise applications and file sharing.
+**a)Object Storage**  
+- Used to store unstructured data like images, videos, and backups.  
+- Accessible via REST APIs.  
+**b) Block Storage**  
+- Provides storage for virtual machines, like an attached hard drive.  
+- Suitable for databases and operating systems.  
+**c) File Storage**  
+- Provides shared storage for multiple VMs, like a network file system.  
+- Ideal for enterprise applications and file sharing.
 
 
 ***Communication between storage and compute resources***  
