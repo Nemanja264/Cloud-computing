@@ -17,7 +17,7 @@
     - **HPC clusters** combine multiple virtual machines for complex tasks like simulations and large-scale data analysis.
     - They leverage distributed computing to achieve high processing power.
 
-***3. Storage***
+***3. Storage***  
   **1. Object Storage**  
     - Used to store unstructured data like images, videos, and backups.
     - Accessible via REST APIs.
