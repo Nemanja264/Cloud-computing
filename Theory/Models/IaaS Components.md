@@ -20,10 +20,12 @@
 ***3. Storage***  
 **a)Object Storage**  
 - Used to store unstructured data like images, videos, and backups.  
-- Accessible via REST APIs.  
+- Accessible via REST APIs.
+  
 **b) Block Storage**  
 - Provides storage for virtual machines, like an attached hard drive.  
-- Suitable for databases and operating systems.  
+- Suitable for databases and operating systems.
+  
 **c) File Storage**  
 - Provides shared storage for multiple VMs, like a network file system.  
 - Ideal for enterprise applications and file sharing.
