@@ -29,10 +29,13 @@
 **c) File Storage**  
 - Provides shared storage for multiple VMs, like a network file system.  
 - Ideal for enterprise applications and file sharing.
-
-
+  
+  
+<img src="../Images/Screenshot%202025-02-24%20155355.png" height = 350>  
+  
+  
 ***Communication between storage and compute resources***  
-
+  
 **Network as the Backbone (Pipes)**
 - In cloud computing, the **pipes** represent the **network communication channels** between **resources(compute instances)** and **storage**
 - This communication happens over **private IPs, VPCs (Virtual Private Clouds), and subnets.**
@@ -75,4 +78,4 @@
 - Training logs and metrics are stored in **CloudWatch (monitoring service).**
 
 
-
+<img src="../Images/Screenshot%202025-02-24%20164214.png" height = 350>
